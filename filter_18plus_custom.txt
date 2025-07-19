@@ -1,0 +1,65 @@
+! ==========================
+! 💥 فلتر حجب إعلانات +18
+! تاريخ الإنشاء: 2025-07-16
+! نسخة مخصصة لـ Soul / AdGuard / متصفحات تدعم EasyList
+! ==========================
+
+! ========== حظر الشبكات الإعلانية المشبوهة ==========
+||adspyglass.com^
+||juicyads.com^
+||exoclick.com^
+||doubleclick.net^
+||trafficjunky.net^
+||popads.net^
+||onclickads.net^
+||adskeeper.co.uk^
+||adnxs.com^
+||media.net^
+||revcontent.com^
+||taboola.com^
+||outbrain.com^
+||zergnet.com^
+||adservice.google.com^
+
+! ========== حظر الروابط التي تحتوي على كلمات إعلانات ==========
+||*ads*$third-party
+||*advertisement*$third-party
+||*/banners/*$third-party
+||*/popup/*$third-party
+||*/popunder/*$third-party
+||*/sponsored/*$third-party
+||*/ad-delivery/*$third-party
+||*/trackers/*$third-party
+||*/clicktrack/*$third-party
+
+! ========== حظر محتوى ومواقع البالغين ==========
+||pornhub.com^
+||xvideos.com^
+||xhamster.com^
+||redtube.com^
+||youporn.com^
+||brazzers.com^
+||youjizz.com^
+||xnxx.com^
+||cam4.com^
+||camsoda.com^
+||livejasmin.com^
+||myfreecams.com^
+
+! ========== حظر الفيديوهات والصور من نطاقات الإباحية فقط ==========
+||*.pornhub.com/*.jpg$image
+||*.pornhub.com/*.mp4$media
+||*.xvideos.com/*.mp4$media
+||*.xhamster.com/*.jpg$image
+||*.xhamster.com/*.mp4$media
+
+! ========== استثناءات للمواقع النظيفة ==========
+@@||youtube.com^
+@@||vimeo.com^
+@@||dailymotion.com^
+@@||imgur.com^
+@@||pexels.com^
+@@||unsplash.com^
+
+! ========== منع فتح النوافذ الإعلانية المنبثقة ==========
+*$popup,third-party
